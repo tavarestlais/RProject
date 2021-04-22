@@ -1,0 +1,131 @@
+body, ul, li, img{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+a{  
+    text-decoration: none;
+    color:#c2cad1 ;
+}
+
+/* HEADER */
+.header{
+    display: flex;  
+    justify-content: space-between;
+    padding: 20px ;
+    flex-wrap: wrap;
+    background-color: #2e2c2f;
+    align-items: center;
+}
+
+.header-button-menu{
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: 22px;
+    color: #c2cad1;
+    background-color: transparent;
+    cursor: pointer;
+   
+}
+
+.header-menu{
+   flex-grow: 1;
+} 
+
+.header-menu a{
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 0;
+    transition: 0.5s ease;
+}
+
+.header-logo{
+   width: 200px;
+   height: 200px;
+   opacity: 0.8;
+   align-items: bottom;
+   margin-bottom: -20px;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+/* FIRST-CONTAINER */
+.container{
+    background:  url(img/pexel-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-title-name{
+    font-family: 'Cinzel';
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+    display: grid;
+    margin-top: 6em;
+    text-align: center;
+    
+}
+.container-title-info{
+    width: 55%;
+    font-family: 'Cinzel';
+    font-weight: 400;
+    color: white;
+    display: grid;
+    margin: 0 auto 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.infos{
+    display: flex;
+    box-sizing: border-box;
+    margin: 100px auto 0;
+    padding: 20px;
+}
+
+.infos h2{
+    text-transform: uppercase;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.infos p{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.init-staff{
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.init-staff article{
+    border: 1px solid #cecace;
+    margin: auto;
+}
+
+.init-staff img{
+    border-radius: 50%;
+    max-width: 250px;
+}
